@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Daniel Españadero">
+    <meta name="description"
+        content="Euro Darwin es una empresa de instalaciones y reformas ubicada en Barcelona con servicio 24 horas.">
+    <meta name="copyright" content="Euro Darwin">
+    <meta name="keywords" content="EuroDarwin, instalaciones y reformas Barcelona, mantenimiento de comunidades">
+    <title>EURO DARWIN | INSTALACIONES & REFORMAS</title>
+    <link rel="icon" href="../assets/images/logoEuroDarwin.ico">
+    <link rel="stylesheet" type="text/css" href="../css/01-general/general-styles.css">
+    <link rel="stylesheet" type="text/css" href="../css/01-general/nav.css">
+    <link rel="stylesheet" type="text/css" href="../css/01-general/nav-responsive.css">
+    <link rel="stylesheet" type="text/css" href="../css/01-general/footer.css">
+    <link rel="stylesheet" type="text/css" href="../css/01-general/footer-responsive.css">
+    <link rel="stylesheet" type="text/css" href="../css/04-contact/contact-style.css">
+    <link rel="stylesheet" type="text/css" href="../css/04-contact/contact-style-responsive.css">
+    <script type="text/javascript" src="../js/01-general/copyright-footer.js"></script>
+    <script type="text/javascript" src="../js/01-general/nav-responsive.js"></script>
+    <script type="text/javascript" src="../js/04-contact/validacion.js"></script>
+</head>
+
+<body>
+    <nav id="nav_container">
+        <img id="logo-nav" alt="Euro Darwin logo" src="../assets/images/EuroDarwinLogo.webp">
+        <div id="tools-nav_container">
+            <img id="tools-nav" alt="imagen para abrir el menu" src="../assets/images/tools-menu.webp">
+        </div>
+        <div class="sections-nav_container nav-phone">
+            <ul class="sections-nav">
+                <li class="inicio"><a href="../index.html#nav_container">INICIO</a></li>
+                <li><a href="servicios.html">NUESTROS SERVICIOS</a></li>
+                <li><a href="#">CONTACTO</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main id="main_container">
+        <div id="contact_container">
+            <form id="form" action="enviar.php" class="form" method="post">
+                <h3 class="form-text"><span>CONTÁCTANOS</span></h3>
+                <label class="form-text" for="name">Nombre Completo: <span>*</span></label>
+                <input class="inputs" name="name" type="text" id="name" required placeholder="Tu nombre aquí">
+                <label class="form-text" for="email">Correo electrónico: <span>*</span></label>
+                <input class="inputs" name="email" type="email" id="email" required placeholder="ejemplo@ejemplo.com">
+                <label class="form-text" for="message">Mensaje: *</label>
+                <textarea class="inputs" id="message" id="message" required name="message"
+                    placeholder="Escribe aquí tu mensaje para Euro Darwin."></textarea>
+                <button id="send" type="submit" value="ENVIAR">enviar</button>
+                <p class="warnings" id="warnings"></p>
+            </form>
+        </div>
+        <div id="map_container">
+            <div id="text_container">
+                <h1 class="map-text">EuroDarwin</h1>
+                <p class="map-text"><span>Dirección</span>:<br><a class="text-links_maps" href="https://www.google.com/maps/place/Instalaciones+Europa/@41.4241803,2.1835783,18.5z/data=!4m5!3m4!1s0x12a4bd2a75148aab:0x632289c9f5ee5451!8m2!3d41.4242519!4d2.1842324" target="_BLANK">Carrer de Concepción Arenal, 106, 08027 Barcelona.</a> <br>
+                    <span>Teléfonos</span>:<br>
+                    <a class="text-links_maps" href="tel:+34934084825">+34 934 08 48 25</a><br>
+                    <a class="text-links_maps" href="tel:+34617779163">+34 627 77 91 63</a><br>
+                    <a class="text-links_maps" href="tel:+34607968539">+34 607 96 85 39</a>
+                    <br>
+                    <span>Horario de nuestra oficina</span>:<br>De lunes a viernes de 9:00h a 13:00h y de 16:00h a 20:00h.</p>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d186.98073440753183!2d2.1841069265697914!3d41.42420959502702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bd2a75148aab%3A0x632289c9f5ee5451!2sInstalaciones%20Europa!5e0!3m2!1ses!2ses!4v1634226211881!5m2!1ses!2ses"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+    <footer id="footer">
+        <p id="copyright"></p>
+    </footer>
+</body>
+
+</html>

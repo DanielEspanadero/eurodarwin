@@ -1,0 +1,129 @@
+/* HEADER */
+
+#header_container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100vh;
+    background-image:url("../../assets/images/headerSmall.webp");
+    background-size:cover;
+    background-attachment:fixed;
+    overflow:hidden;
+}
+#header-title > h1{
+    font-size:.2em;
+    text-align:center;
+    animation:headerTitle1 2s;
+}
+@keyframes headerTitle1{
+    from{
+        margin-left:-100em;
+    }
+    to{
+        margin-left:0;
+    }
+}
+
+#header-title > h2{
+    font-size:.1em;
+    text-align:center;
+    animation:headerTitle2 2s;
+}
+@keyframes headerTitle2{
+    from{
+        margin-right:-100em;
+    }
+    to{
+        margin-right:0;
+    }
+}
+#header-title > h3{
+    font-size:1.70em;
+    animation:headerTitle1 2s;
+    margin-top:.3em;
+}
+
+/* MAIN */
+
+#main_container{
+    width:100%;
+    height:165em;
+}
+
+.text_container{
+    margin:5em auto 0 auto;
+    width:90%;
+    height:10em;
+    text-align:center;
+    color:#57595b;
+    font-family:"Euro Darwin", Helvetica, sans-serif;
+}
+.title-text{
+    margin:1em;
+    font-size:.4em;
+}
+#reforms-images_container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:30em;
+    overflow:hidden;
+}
+.reforms-images{
+    margin:.5em;
+    height:9em;
+}
+#second-titles_container > h3{
+    font-size:.5em;
+}
+#second-titles_container > p{
+    font-size:.3em;
+    margin:1em;
+}
+#reform-background1{
+    width:100%;
+    height:25em;
+    background-image:url("../../assets/images/backgroundReform1Small.webp");
+    background-size:cover;
+    background-attachment:fixed;
+    margin-top:5em;
+}
+#venta > h3{
+    font-size:.5em;
+}
+#venta > p{
+    font-size:.5em;
+    margin-top:1em;
+}
+#calderas{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    width:100%;
+    height:20em;
+}
+#calderas > img{
+    height:3em;
+}
+#text-marcas{
+    font-size:.5em;
+    margin:0 auto 2em auto;
+    height:1.5em;
+}
+#marcas_container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:40em;
+    overflow:hidden;
+} 
+.marcas-images{
+    width:4em;
+    margin:1em;
+}

@@ -1,0 +1,145 @@
+@media screen and (min-width:240px){
+    #logo-text_container > h1{
+        font-size:1.6em;
+    }
+    #logo-text_container > h2{
+        font-size:.8em;
+    }
+    #logo-text_container > p{
+        font-size:.7em;
+    }
+    #box_container{
+        margin-top:3em;
+    }
+    .box{
+        width:12em;
+        height:17em;
+        margin:.5em 0;
+    }
+    .box > img{
+        height:3em;
+        width:3em;
+    }
+    .box > h3{
+        font-size:1.1em;
+    }
+    .box > p{
+        font-size:.6em;
+    }
+}
+@media screen and (min-width:320px){
+    #logo-text_container > h1{
+        font-size:2em;
+    }
+    #logo-text_container > h2{
+        font-size:1em;
+    }
+    #logo-text_container > p{
+        font-size:.8em;
+    }
+    .box{
+        margin:.5em .2em;
+        width:17em;
+    }
+    .box > img{
+        height:3.5em;
+        width:3.5em;
+    }
+    .box > h3{
+        font-size:1.3em;
+    }
+    .box > p{
+        font-size:.8em;
+        margin-top:.5em;
+    }
+}
+@media screen and (min-width:375px){
+    .box{
+        width:20em;
+        height:17em;
+        margin:.5em 0;
+    }
+    .box > img{
+        height:4em;
+        width:4em;
+    }
+}
+@media screen and (min-width:550px){
+    #logo-text_container > h1{
+        font-size:2em;
+    }
+    #logo-text_container > h2{
+        font-size:1.2em;
+    }
+    #logo-text_container > p{
+        font-size:1em;
+    }
+    .box{
+        width:30em;
+        height:17em;
+        margin:.5em 0;
+    }
+    .box > img{
+        height:5em;
+        width:5em;
+    }
+}
+@media screen and (min-width:768px){
+    #logo-text_container > h1{
+        font-size:3em;
+    }
+    #logo-text_container > h2{
+        font-size:1.5em;
+        margin-top:.5em;
+    }
+    #logo-text_container > p{
+        font-size:1.2em;
+        margin-top:.5em;
+    }
+    #box_container{
+        flex-flow:wrap row;
+    }
+    .box{
+        width:15em;
+        height:23em;
+        margin:1em 2em;
+    }
+    .box > img{
+        height:9em;
+        width:9em;
+    }
+    .box > h3{
+        font-size:1.5em;
+    }
+    .box > p{
+        font-size:.9em;
+        margin-top:.5em;
+    }
+}
+@media screen and (min-width:1180px){
+    #logo-text_container > h1{
+        font-size:4em;
+    }
+    #logo-text_container > h2{
+        font-size:1.7em;
+        margin-top:.2em;
+    }
+    #logo-text_container > p{
+        font-size:1.4em;
+    }
+    .box{
+        width:18em;
+        height:35em;
+    }
+    .box > img{
+        height:15em;
+        width:15em;
+    }
+    .box > h3{
+        font-size:1.8em;
+    }
+    .box > p{
+        font-size:1.2em;
+        margin-top:1em;
+    }
+}

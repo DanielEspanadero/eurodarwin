@@ -1,0 +1,405 @@
+@media screen and (min-width:130px){
+ 
+/* HEADER */
+
+    #header-title > h1{
+        font-size:.5em;
+    }
+    #header-title > h2{
+        font-size:.3em;
+    }
+    #header-title > h3{
+        font-size:.2em;
+    }
+
+/* MAIN */
+
+    .title-text{
+        font-size:.7em;
+    }
+    #second-titles_container > h3{
+        font-size:1em;
+    }
+    #second-titles_container > p{
+        font-size:.45em;
+    }
+    #venta > h3{
+        font-size:.8em;
+    }
+    #venta > p{
+        font-size:.8em;
+    }
+    #calderas > img{
+        height:4em;
+    }
+}
+
+@media screen and (min-width:200px){
+    
+/* HEADER */
+
+    #header-title > h1{
+        font-size:1em;
+    }
+    #header-title > h2{
+        font-size:.5em;
+    }
+    #header-title > h3{
+        font-size:.4em;
+    }
+    
+    /* MAIN */
+    
+    #title_container > h1{
+        font-size:1em;
+    }
+    #title_container > h2{
+        font-size:.65em;
+    }
+    #second-titles_container > h3{
+        font-size:1.1em;
+    }
+    #second-titles_container > p{
+        font-size:.6em;
+    }
+    #calderas > img{
+        height:5em;
+    }
+    #text-marcas{
+        font-size:1em;
+    }
+}
+
+@media screen and (min-width:240px){
+    
+/* HEADER */
+
+    #header-title > h1{
+        font-size:1.5em;
+    }
+    #header-title > h2{
+        font-size:.75em;
+    }
+    #header-title > h3{
+        font-size:.6em;
+    }
+
+/* MAIN */
+
+    #title_container > h1{
+        font-size:1.1em;
+    }
+    #title_container > h2{
+        font-size:.7em;
+    }
+    #second-titles_container > p{
+        font-size:.7em;
+    }
+    #venta > h3{
+        font-size:1em;
+    }
+    #venta > p{
+        font-size:1em;
+    }
+    #calderas > img{
+        height:6em;
+    }
+    .marcas-images{
+        width:5.4em;
+        margin:2em 1em;
+    }
+}
+
+@media screen and (min-width:320px){
+
+/* HEADER */
+    
+    #header-title > h1{
+        font-size:2.1em;
+    }
+    #header-title > h2{
+        font-size:1em;
+    }
+    #header-title > h3{
+        font-size:.77em;
+    }
+
+/* MAIN */
+
+    #title_container > h1{
+        font-size:1.2em;
+    }
+    #title_container > h2{
+        font-size:.9em;
+    }
+    #second-titles_container > h3{
+        font-size:1.2em;
+    }
+    #second-titles_container > p{
+        font-size:.8em;
+    }
+    #reform-background1{
+        background-image:url("../../assets/images/backgroundReform1Medium.webp");
+    }
+    #calderas > img{
+        height:8em;
+    }
+    .marcas-images{
+        width:6em;
+        margin:1.5em 1em;
+    }
+}
+
+@media screen and (min-width:375px){
+
+/* HEADER */
+
+    #header-title > h3{
+        font-size:.79em;
+    }
+
+/* MAIN */
+
+    #title_container > h1{
+        font-size:1.4em;
+    }
+    #title_container > h2{
+        font-size:1em;
+    }
+    #reforms-images_container{
+        flex-flow:row wrap;
+    }
+    .reforms-images{
+        height:14em;
+    }
+    #second-titles_container > h3{
+        font-size:1.3em;
+    }
+    #second-titles_container > p{
+        font-size:.9em;
+    }
+    #venta > h3{
+        font-size:1.3em;
+    }
+    #venta > p{
+        font-size:1.3em;
+    }
+    #calderas > img{
+        height:9em;
+    }
+}
+
+@media screen and (min-width:480px){
+
+/* HEADER */
+
+    #header_container{
+        background-image:url("../../assets/images/headerMedium.webp");
+    }
+    #header-title > h1{
+        font-size:2.8em;
+    }
+    #header-title > h2{
+        font-size:1.35em;
+    }
+    #header-title > h3{
+        font-size:1.06em;
+    }
+
+
+/* MAIN */
+
+    #title_container > h1{
+        font-size:1.4em;
+    }
+    #title_container > h2{
+        font-size:1em;
+    }
+    .reforms-images{
+        height:14.5em;
+    }
+    #second-titles_container > h3{
+        font-size:1.5em;
+    }
+    #second-titles_container > p{
+        font-size:1em;
+    }
+    #reform-background1{
+        background-image:url("../../assets/images/backgroundReform1.webp");
+    }
+    #calderas > img{
+        height:12em;
+    }
+    #marcas_container{
+        flex-flow:row wrap;
+    } 
+    .marcas-images{
+        width:10em;
+        margin:em;
+    }
+}
+
+@media screen and (min-width:700px){
+
+    /* MAIN */
+    
+        #title_container{
+            margin-bottom:3em;
+        }
+        #title_container > h1{
+            font-size:2em;
+        }
+        #title_container > h2{
+            font-size:1.4em;
+        }
+        #reforms-images_container{
+            flex-direction:row;
+        }
+        .reforms-images{
+            margin:.5em;
+            height:20em;
+        }
+        #second-titles_container > h3{
+            font-size:1.6em;
+        }
+        #second-titles_container > p{
+            font-size:1.1em;
+        }
+        #calderas > img{
+            height:15em;
+        }
+    }
+
+@media screen and (min-width:768px){
+
+/* HEADER */
+
+    #header-title > h1{
+        font-size:4em;
+    }
+    #header-title > h2{
+        font-size:1.95em;
+    }
+    #header-title > h3{
+        font-size:1.54em;
+    }
+
+/* MAIN */
+
+    #title_container{
+        margin-bottom:3em;
+    }
+    #title_container > h1{
+        font-size:2em;
+    }
+    #title_container > h2{
+        font-size:1.4em;
+    }
+    #reforms-images_container{
+        flex-direction:row;
+    }
+    .reforms-images{
+        margin:.5em;
+        height:25em;
+        width:30%;
+    }
+    #second-titles_container > h3{
+        font-size:1.7em;
+    }
+    #second-titles_container > p{
+        font-size:1.3em;
+    }
+    #venta > h3{
+        font-size:1.8em;
+    }
+    #venta > p{
+        font-size:1.6em;
+    }
+    #calderas{
+        margin-top:3em;
+    }
+    #calderas > img{
+        height:17em;
+    }
+    #text-marcas{
+        font-size:1.5em;
+        margin:3em auto 0 auto;
+    }
+    #marcas_container{
+        height:35em;
+    } 
+    .marcas-images{
+        width:10em;
+        margin:3em;
+    }
+}
+@media screen and (min-width:850px){
+
+/* HEADER */
+
+    #header_container{
+        background-image:url("../../assets/images/headerBig.webp");
+    }
+}
+
+@media screen and (min-width:1280px){
+
+/* HEADER */
+
+    #header-title > h1{
+        font-size:4.5em;
+    }
+    #header-title > h2{
+        font-size:2.15em;
+    }
+    #header-title > h3{
+        font-size:1.70em;
+    }
+
+/* MAIN */
+
+    .title-text{
+        margin:0em;
+    }
+    #title_container > h1{
+        font-size:3em;
+    }
+    #title_container > h2{
+        font-size:2em;
+        margin-top:.5em;
+    }
+    #reforms-images_container{
+        flex-direction:row;
+    }
+    .reforms-images{
+        margin:0 4em;
+        height:25em;
+        width:17em;
+    }
+    #second-titles_container > h3{
+        font-size:2.5em;
+    }
+    #second-titles_container > p{
+        font-size:1.5em;
+        margin:1em;
+    }
+    #venta > h3{
+        font-size:2.3em;
+    }
+    #venta > p{
+        font-size:1.8em;
+    }
+    #calderas > img{
+        height:20em;
+    }
+    #text-marcas{
+        font-size:2.2em;
+        margin:3em auto 0 auto;
+    }
+    #marcas_container{
+        height:30em;
+    } 
+    .marcas-images{
+        width:14em;
+    }
+}
