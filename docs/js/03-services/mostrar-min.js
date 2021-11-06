@@ -1,0 +1,1 @@
+window.addEventListener("load",()=>{"use strict";let e=document.querySelectorAll(".box");window.addEventListener("scroll",function(){let t=document.documentElement.scrollTop;for(let o=0;o<e.length;o++)e[o].offsetTop-500<t&&(e[o].style.opacity=1,e[o].classList.add("mostrarArriba"))})});
